@@ -3,13 +3,13 @@ export default function Education() {
   const experiences = [
     {
       year: "2018 - 2022",
-      role: "College",
+      role: "Bachelor",
       company: "MLG College of Learning, Inc.",
       description: "Bachelor of Science in Information Technology",
     },
     {
       year: "2016 - 2018",
-      role: "",
+      role: "Secondary",
       company: "Balocawehay National High School",
       description: "General Academic Strand",
     },
