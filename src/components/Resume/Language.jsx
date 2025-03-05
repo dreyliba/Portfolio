@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 const skills = [
-  { name: "English", percentage: 75 },
+  { name: "English", percentage: 80 },
   { name: "Tagalog", percentage: 85 },
   { name: "Bisaya", percentage: 95 },
 ];

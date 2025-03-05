@@ -105,7 +105,8 @@ const ProfileInfo = () => {
             <button
               onClick={() =>
                 window.open(
-                  "/assets/Andrian_Pontejo-Portfolio_Website-Resume.pdf",
+                  // "/assets/Andrian_Pontejo-Portfolio_Website-Resume.pdf",
+                  "/assets/Andrian-Pontejo-Resume.pdf",
                   "_blank"
                 )
               }

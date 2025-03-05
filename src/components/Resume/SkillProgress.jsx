@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 const skills = [
-  { name: "Web Development", percentage: 85 },
-  { name: "Mobile App Development", percentage: 75 },
-  { name: "Graphic Design", percentage: 90 },
-  { name: "Coding & Programming", percentage: 65 },
+  { name: "Web Development", percentage: 90 },
+  { name: "Mobile App Development", percentage: 80 },
+  { name: "Graphic Design", percentage: 75 },
+  { name: "Coding & Programming", percentage: 85 },
 ];
 
 export default function SkillProgress() {
