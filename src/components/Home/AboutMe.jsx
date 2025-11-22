@@ -61,14 +61,13 @@ export default function AboutMe() {
           </h1>
 
           <p className="text-darkPrimary dark:text-lightSecondary text-sm md:text-2xl max-w-4xl text-justify leading-relaxed">
-            Hi, I'm Andrian Pontejo, a passionate web developer specializing in
-            custom WordPress development and full-stack applications. My journey
-            into web development started with a fascination for how websites
-            work and an unwavering love for technology. Growing up in the
-            Philippines, I dedicated myself to learning HTML, CSS, and PHP. Over
-            time, I expanded my skills and mastered Laravel and WordPress,
-            allowing me to build custom WordPress themes and develop full-stack
-            web applications.
+            Hi, I'm Andrian Pontejo — a web developer passionate about building
+            modern web applications. My journey began with a curiosity about how
+            websites work, which grew into a strong love for coding. Growing up
+            in the Philippines, I started with HTML, CSS, and PHP, and later
+            expanded into Laravel and React.js. Today, I focus on creating
+            clean, efficient, and scalable web applications using full-stack
+            development technologies.
           </p>
         </div>
       </div>

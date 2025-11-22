@@ -12,8 +12,8 @@ export default function MyProjects() {
         </h1>
 
         <p className="text-darkPrimary dark:text-lightSecondary text-sm md:text-2xl  text-justify leading-relaxed">
-          Take a look at some of my recent work where I applied creative
-          solutions and technical skills to solve real-world problems.
+          Take a look at some of the projects I've worked on, where I provided
+          custom web solutions tailored to each client's needs.
         </p>
         <ProjectCard />
       </div>

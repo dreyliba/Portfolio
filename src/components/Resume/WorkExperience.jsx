@@ -4,14 +4,14 @@ export default function WorkExperience() {
   const experiences = [
     {
       year: "2025 - Present",
-      role: "Software Engineer",
+      role: "ServiceNow Developer",
       company: "Accenture",
       description:
-        "Design, develop, test, and maintain software for a variety of devices and systems",
+        "Develop, configure, and customize applications on the ServiceNow platform, including workflow design, scripting, and integration to automate business processes.",
     },
     {
       year: "2022 - 2024",
-      role: "Full-Stack Web Developer",
+      role: "Web Developer",
       company: "CreativeDevLabs",
       description:
         "Developing and maintaining modern web applications with backend and frontend integration.",

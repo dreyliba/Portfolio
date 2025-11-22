@@ -22,8 +22,7 @@ export default function Banner() {
           </h1>
 
           <p className="text-lightAccent text-sm md:text-xl">
-            Specializing in Custom Wordpress Development & Full-Stack
-            Applications
+            Specializing in Web Development
           </p>
 
           {/* Social Icons */}

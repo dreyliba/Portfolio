@@ -1,4 +1,4 @@
-import { FaGithub, FaArrowDown, FaArrowUp } from "react-icons/fa";
+import { FaArrowDown, FaArrowUp, FaLink } from "react-icons/fa";
 import { blogData } from "../../assets/data/data";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -33,14 +33,14 @@ export default function ProjectCard() {
                 {blog.description}
               </p>
               <div className="group inline-block text-center w-full sm:w-full md:w-[70%]">
-                <Link to="https://www.facebook.com" target="_blank">
+                <Link to={blog.link} target="_blank">
                   <button
                     type="button"
                     className="flex items-center justify-center md:justify-start gap-2 text-lightPrimary dark:text-darkPrimary bg-darkAccent dark:bg-lightAccent hover:bg-darkSecondary dark:hover:bg-lightPrimary focus:ring-2 focus:outline-none focus:ring-darkSecondary font-semibold rounded-lg text-md px-5 py-2.5 text-center 
                     transition-all duration-300 ease-in-out transform hover:scale-105 text-center w-full"
                   >
-                    <FaGithub className="text-xl group-hover:animate-jello" />
-                    View Code
+                    <FaLink className="text-xl group-hover:animate-jello" />
+                    Visit Site
                   </button>
                 </Link>
               </div>

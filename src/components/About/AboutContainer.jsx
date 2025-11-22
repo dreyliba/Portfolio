@@ -24,13 +24,12 @@ export default function AboutContainer({ title, subtitle }) {
             <div className="flex flex-col md:flex-row w-full md:space-x-10">
               {" "}
               <p className="text-md text-darkPrimary dark:text-lightPrimary w-full text-justify">
-                I am a passionate and dedicated Full-Stack Web Developer with a
-                strong focus on creating responsive, user-friendly websites and
-                applications. With experience in both frontend and backend
-                technologies, I specialize in building seamless digital
-                experiences using modern frameworks. I am always eager to learn,
-                grow, and take on new challenges while delivering high-quality
-                solutions that meet the needs of clients and users alike.
+                I am a dedicated Web Developer specializing in building
+                responsive, user-friendly websites and applications. I leverage
+                modern frontend and backend frameworks to create seamless
+                digital experiences. My goal is always to deliver high-quality,
+                scalable solutions that meet both client needs and user
+                expectations.
               </p>
               <div className="text-sm text-darkPrimary text-justify dark:text-lightPrimary w-full flex justify-between mt-8 md:mt-0">
                 <div className="space-y-3">
@@ -94,8 +93,8 @@ export default function AboutContainer({ title, subtitle }) {
 
           {/* Summary */}
           <p className="text-sm text-darkPrimary dark:text-lightPrimary">
-            Passionate Full-Stack Developer with a love for creating efficient,
-            modern, and user-friendly applications. Let's build something great
+            Passionate Web Developer with a love for creating efficient, modern,
+            and user-friendly applications. Let's build something great
             together!
           </p>
         </div>
