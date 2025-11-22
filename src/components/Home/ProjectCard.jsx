@@ -33,7 +33,12 @@ export default function ProjectCard() {
                 {blog.description}
               </p>
               <div className="group inline-block text-center w-full sm:w-full md:w-[70%]">
-                <Link to={blog.link} target="_blank">
+                <Link
+                  to={blog.link}
+                  alt={blog.title}
+                  loading="lazy"
+                  target="_blank"
+                >
                   <button
                     type="button"
                     className="flex items-center justify-center md:justify-start gap-2 text-lightPrimary dark:text-darkPrimary bg-darkAccent dark:bg-lightAccent hover:bg-darkSecondary dark:hover:bg-lightPrimary focus:ring-2 focus:outline-none focus:ring-darkSecondary font-semibold rounded-lg text-md px-5 py-2.5 text-center 
